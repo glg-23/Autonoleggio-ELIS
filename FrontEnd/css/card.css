@@ -1,0 +1,21 @@
+.card{
+	border-radius: 18px;
+	border: outset;
+	
+}
+
+.card-title{
+	text-align: center;
+	font-size: large;
+}
+
+.card-text{
+	font-size: large;
+	text-align: center;
+}
+
+#modificacliente{
+	padding-left: 0px;
+	padding-right: 0px;
+	font-size: 14px;
+}

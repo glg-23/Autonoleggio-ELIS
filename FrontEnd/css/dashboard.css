@@ -1,0 +1,227 @@
+body {
+  font-size: .875rem;
+  font-family: 'Bahnschrift';
+}
+
+.feather {
+  width: 20px;
+  height: 20px;
+  vertical-align: initial;
+  color: orange;
+}
+
+/*
+ * Sidebar
+ */
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100; /* dietro */
+  padding: 50px 0 0; /* altezza */
+  box-shadow: inset -2px 0 0 rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 767.98px) {
+  .sidebar {
+    top: 5rem;
+  }
+}
+
+/*regolasidebar*/
+.sidebar-sticky {
+  position: relative;
+  top: 0;
+  height: calc(100vh - 48px);
+  padding-top: .5rem;
+  overflow-x: hidden;
+  overflow-y: auto; /* scroll contenuti verticale */
+  color: black;
+}
+
+@supports ((position: -webkit-sticky) or (position: sticky)) {
+  .sidebar-sticky {
+    position: -webkit-sticky;
+    position: sticky;
+  }
+}
+
+.sidebar .nav-link {
+  font-size: 16px;
+  font-family: 'Bahnschrift';
+  font-weight: bolder;
+  color:black;
+  }
+
+.sidebar .feather {
+  margin-right: 4px;
+  color: orange;
+}
+
+.sidebar-heading {
+  font-size: .75rem;
+  text-transform: uppercase;
+}
+
+/*
+ * Navbar
+ */ 
+.navbar-brand {
+  text-align: center;
+  background-color:transparent;
+  color: white;
+  padding: 10px;
+  padding-bottom: 0;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+
+.navbar .navbar-toggler {
+  top: .25rem;
+  right: 1rem;
+}
+.navbar .navbar-toggler:hover {
+box-shadow: 0px 0px 15px -2px white;
+}
+.navbar .navbar-toggler:active {
+  box-shadow:0 0 30px white;
+  
+  /**/
+  /**/
+}
+
+.navbar .form-control {
+  padding: .75rem 1rem;
+  border-width: 0;
+  border-radius: 0;
+}
+
+.form-control-dark {
+  color: #fff;
+  background-color: rgba(255, 255, 255, .1);
+  border-color: rgba(255, 255, 255, .1);
+}
+
+.form-control-dark:focus {
+  border-color: transparent;
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, .25);
+}
+
+ /*
+ sotto-collegamenti
+ */
+a.collegamento:link,
+a.collegamento:visited {
+  color: black;
+  font-size: 14px;
+  font-family: 'Bahnschrift';
+}
+
+a.collegamento:hover {
+  box-shadow: 0px 5px 7px -3px orange;
+  text-decoration: none;
+}
+
+a.collegamento:active {
+  color: orange;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+/*bottoni*/
+.card{
+  border:transparent;
+}
+.bottone{
+  text-align: center;
+  background-color: #343a40;
+  color: white;
+  border: white;
+  border-radius: 0px;  
+}
+.bottone:hover{
+  color: white;
+  box-shadow: 0 0 0 3px orange;
+  text-decoration: none;
+}
+.bottone:active{
+  box-shadow: 0 0 10px 3px orange;
+  text-decoration: none;
+}
+.btn{
+  border-radius: 0;
+  text-align: center;
+}
+
+/*bottoni home*/
+.selezione{
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  align-items: center; 
+  background-color: #343a40;
+  color: white;
+  border: white;
+  border-radius: 0px;  
+}
+.selezione:hover{
+  color: white;
+  box-shadow: 0 0 0 3px orange;
+  text-decoration: none;
+}
+.selezione:active{
+  box-shadow: 0 0 10px 3px orange;
+  text-decoration: none;
+}
+
+/*form staff*/
+.form-control:active{
+  box-shadow: 0 0 10px 5px orange;
+}
+
+.pass_show{position: relative} 
+
+.pass_show .ptxt { 
+
+position: absolute; 
+
+top: 50%; 
+
+right: 10px; 
+
+z-index: 1; 
+
+color: orange; 
+
+margin-top: -10px; 
+
+cursor: pointer; 
+
+transition: .3s ease all; 
+
+} 
+.pass_show .ptxt:hover{color: #333333;} 
+
+
+/*
+Corso GENERATION per Sviluppatore Java 2020
+Elis Classe JaRM14
+Progetto: Autonoleggio
+front-end: Davide Mercuri, Giulia Formiconi, Gianluigi D'Antimi
+back-end: Antonio Incoronato, Giovanni Fabrizi
+*/

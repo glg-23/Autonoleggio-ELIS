@@ -1,0 +1,101 @@
+.nav-link{
+    font-size: 16px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif ;
+    font-size: 62.5%;
+    font-size: 10px;
+}
+
+.nav {
+    box-sizing: unset;
+    width: 100%;
+    position: relative;
+    line-height: 65px;
+    text-align: center;
+    padding-bottom: 1px;
+    background-color: rgba(255, 255, 255, 0.89);
+    padding-top: 20px;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.nav div.logo {
+    float: left;
+    width: auto;
+    height: auto;
+    padding-left: 3rem;
+}
+
+.nav div.logo a {
+    text-decoration: none;
+    color:#000;
+    font-size: 2.5rem;
+}
+
+.nav div.logo a:hover {
+    color: #e78f0c;
+}
+
+.nav div.main_list {
+    height: 65px;
+    float: right;
+}
+
+.nav div.main_list ul {
+    width: 100%;
+    height: 65px;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav div.main_list ul li {
+    width: auto;
+    height: 65px;
+    padding: 0;
+    padding-right: 3rem;
+}
+
+.nav div.main_list ul li a {
+    text-decoration: none;
+    color:#000;
+    line-height: 65px;
+    font-size: 2.4rem;
+}
+
+.nav div.main_list ul li a:hover {
+    color: #e78f0c;
+}
+
+.navTrigger {
+    display: none;
+}
+
+@media screen and (max-width:769px) {
+
+    .nav div.main_list ul li a {
+        text-decoration: none;
+        color: #000;
+        line-height: 65px;
+        font-size: 1.8rem;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width: 991px) {
+
+    .nav div.main_list ul li a {
+        text-decoration: none;
+        color: #000;
+        line-height: 65px;
+        text-align: center;
+    }
+}
