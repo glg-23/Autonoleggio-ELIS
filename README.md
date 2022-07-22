@@ -3,9 +3,10 @@ Corso "Sviluppatore Java" 2020
 
 Progetto di fine corso 
 
-
 Applicativo gestionale di un autonoleggio fittizio.
 Front-End + Back-End.
+
+-----
 
 L'applicazione consente a varie tipologie di utenti di accedere ed interagire con il sito di un autonoleggio.
 
@@ -13,6 +14,7 @@ L'applicazione consente a varie tipologie di utenti di accedere ed interagire co
 
 -Gli utenti che si presentano al sito come clienti dell'autonoleggio potranno prenotare il noleggio di un'autovettura scegliendo data e tipologia di auto e gestire le proprie prenotazioni.
 
+-----
 
 ELIS - Generation Italy
 
