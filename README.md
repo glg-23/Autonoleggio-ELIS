@@ -1,4 +1,5 @@
 # Autonoleggio
+
 Corso "Sviluppatore Java" 2020 
 
 Progetto di fine corso 
@@ -7,6 +8,8 @@ Applicativo gestionale di un autonoleggio fittizio.
 Front-End + Back-End.
 
 -----
+
+[Documento dei requisiti](https://github.com/glg-23/ELIS_Autonoleggio/blob/main/Documenti/Documento%20dei%20requisiti.docx)
 
 L'applicazione consente a varie tipologie di utenti di accedere ed interagire con il sito di un autonoleggio.
 
