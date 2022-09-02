@@ -24,3 +24,9 @@ ELIS - Generation Italy
 https://www.elis.org/
 
 https://italy.generation.org/
+
+-----
+
+<img src="https://github.com/glg-23/ELIS_Autonoleggio/blob/main/Documenti/GENERATION%20Italy%20Java%20Developer%20-%20D'Antimi%20Gianluigi.jpg" width="200"/>
+
+<img src="https://github.com/glg-23/ELIS_Autonoleggio/blob/main/Documenti/ORACLE%20Award%20of%20Completion%20Java%20SE8%20-%20D'Antimi%20Gianluigi.jpg" width="200"/>
