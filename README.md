@@ -19,10 +19,11 @@ L'applicazione consente a varie tipologie di utenti di accedere ed interagire co
 
 -----
 
-ELIS - Generation Italy
-
+ELIS  
 https://www.elis.org/
 
+
+Generation Italy  
 https://italy.generation.org/
 
 -----
